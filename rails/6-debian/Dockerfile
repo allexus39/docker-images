@@ -1,6 +1,6 @@
 FROM ruby:2.7.1
 
-ENV RAILS_VERSION 6.0.3.1
+ENV RAILS_VERSION 6.0.3.2
 
 # Update packages
 RUN apt-get update -qq
