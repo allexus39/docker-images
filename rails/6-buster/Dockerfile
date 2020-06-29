@@ -8,7 +8,7 @@ RUN apt-get update -qq
 # Install PostgreSQL Client
 RUN curl -sSL https://www.postgresql.org/media/keys/ACCC4CF8.asc | apt-key add -
 RUN echo "deb http://apt.postgresql.org/pub/repos/apt/ buster-pgdg main" | tee /etc/apt/sources.list.d/pgdg.list
-RUN apt-get update && apt-get install -y postgresql-client-12 --no-install-recommends
+RUN apt-get update && apt-get install -y postgresql-client-12 libpq-dev --no-install-recommends
 
 # Install Node.js
 RUN curl -sSL https://deb.nodesource.com/gpgkey/nodesource.gpg.key | apt-key add -
