@@ -1,6 +1,6 @@
 FROM ruby:2.7.1-buster
 
-ENV RAILS_VERSION 6.0.3.2
+ENV RAILS_VERSION=6.0.3.2
 
 # Update packages
 RUN apt-get update -qq
@@ -19,4 +19,4 @@ RUN apt-get update && apt-get install -y nodejs --no-install-recommends
 RUN npm install -g yarn
 
 # Install Rails
-RUN gem install rails -v $RAILS_VERSION
+RUN gem install rails -v ${RAILS_VERSION}
