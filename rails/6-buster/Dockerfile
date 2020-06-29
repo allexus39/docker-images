@@ -1,4 +1,4 @@
-FROM ruby:2.7.1
+FROM ruby:2.7.1-buster
 
 ENV RAILS_VERSION 6.0.3.2
 
