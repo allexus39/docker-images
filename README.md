@@ -1,12 +1,12 @@
 # docker-images
 
-Based on Debian Buster and Ruby 2.7.1
+Based on Debian Buster and Ruby 2.7.2
 
 Includes:
 * PostgreSQL Client 12
-* Rails 6.0.3.2
-* Node.js 14.X.0
-* Yarn 1.22.4
+* Rails 6.0.3.4
+* Node.js 14.15.1
+* Yarn 1.22.10
 
 [Github](https://github.com/allexus39/docker-images)
 
